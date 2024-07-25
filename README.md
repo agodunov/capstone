@@ -1,6 +1,5 @@
-# capstone
-This small education project was created during my study in ML/AI. 
-A quick reminder that the project consists of a Bayesian Optimisation competition. There are eight unknown functions that should be maximized. I am only able to query each function once every few days. The inputs for each query are the following:
+# Capstone Reflection
+This small education project was created during my study in ML/AI during 1H 2024. As a quick reminder that the project consists of a Bayesian Optimisation of blackbox. There are eight unknown functions that should be maximized. I am only able to query each function once every few days. The inputs for each query are the following:
 - Function one: 2-dimensional
 - Function two: 2-dimensional
 - Function three: 3-dimensional
@@ -10,6 +9,7 @@ A quick reminder that the project consists of a Bayesian Optimisation competitio
 - Function seven: 6-dimensional
 - Function eight: 8-dimensional
 
+# The files overview
 In the root directory, you can find the following files.
 - 562_data.csv - This is the weekly response file for the project
 - leaderboards-2024.. A set of files shows the current position of the current solution against competitors. This information might be useful in understanding which mode of optimization to use. At the bottom of the table, it makes sense to use "exploration" mode rather than "exploitation"
