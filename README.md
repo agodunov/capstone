@@ -52,13 +52,14 @@ To help with data analysis I visualize the plot per each $Y(x_i)$ function as we
 -	There is a joke that “Every code has a bug”, so debugging and critical code review is very important from the very beginning.
 -	Surrogate function does not play such important role as it might seem. The Matern kernel was excessive because RBF is enough.
 -	Linear plain approximation sometimes does not work due to multicollinearity of nearest points. I have to conduct appropriate analysis from the very beginning too.
--	The ides to place the code and data in the github should be given as a task guidance at the very beginning of competition rather than at the end.
--	I wish I had known the bowtorch library from the very beginning to apply BO in a trusted region! 
+-	The requirement to place the code and data in the github should be given as a task guidance at the very beginning of competition rather than at the end. It helps to track the version of code.
+-	I wish I had known the botorch library from the very beginning to apply BO in a trusted region! 
 
 ## How can I use this experience in the future?
-I become comfortable with the Bayesian Optimization and I believe this is a good approach in finding the optimal hyperparameters in the Neural Network. I have ongoing project to create the AI assistant for IT technical support team where BO will be very useful to train Neural Network to map known workaround to the new incident ticket.
+I become comfortable with the Bayesian Optimization and I believe this is a good approach in finding the optimal hyperparameters in the Neural Network. I have ongoing project to create the AI assistant for IT technical support team where BO will be very useful to train Neural Network.
 
 Generally, I liked the project because it was fun. 
-Thank you to my teachers, Carleton and Matilda.
+
+A Big Thank You to my teachers, Carleton and Matilde.
 
 Andrey, the summer 2024.
