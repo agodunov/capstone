@@ -47,6 +47,9 @@ To help with data analysis I visualize the plot per each $Y(x_i)$ function as we
 - I developed a similar approach with quadratic hyperplane approximation near the maximum point and I was very lucky to find out that function 8 is a quadratic polynomial itself, so I quickly recovered the function, maximum point and value.
 - I check the leader boards table to understand my relative position against peers which help me select either “exploration or exploitation” mode and method.
 
+## The results
+At the end of the competition, a final leaderboard table was published, showing the maximum value that the participant had scored for each function. There I was able to take places in the range from 2 to 22 per different functions. An informal overall ranking, aggregated across all functions, showed that I took third place out of 50 participants. Thus, the approach described above turned out to be, although not brilliant, but quite workable.
+
 ## Lessons Learned
 -	I saw that a Gaussian Progress Regressor is struggling to find the optimal function for kernel by generating a warning messages. During problem solving, I came to conclusion that appropriate scaling is very important to get a good results. The scaling should be done at the very beginning.
 -	There is a joke that “Every code has a bug”, so debugging and critical code review is very important from the very beginning.
